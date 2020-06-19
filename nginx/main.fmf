@@ -1,0 +1,11 @@
+summary: library for testing nginx
+contact:
+- Ondrej Ptak <optak@redhat.com>
+component:
+- nginx
+test: ./runtest.sh
+require:
+- library(openssl/certgen)
+recommend:
+- nginx
+duration: 5m
